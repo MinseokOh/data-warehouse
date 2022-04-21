@@ -18,18 +18,6 @@
 
 ### Dependencies
 
-- dependencies
-
-`apache kafka` `mysql` `protobuf` `docker-compose` `docker` `shell scripts` `make`
-
-- go modules
-
-`github.com/jf-tech/omniparser` `github.com/spf13/cobra` `github.com/Shopify/sarama`
-
-- utils
-
-`multitail`
-
 ### Install multitail
 ```shell
 # Ubuntu 
