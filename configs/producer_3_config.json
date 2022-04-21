@@ -1,0 +1,15 @@
+{
+  "type": "xml1",
+  "duration": 100,
+  "kafka": {
+    "brokers": [
+      "localhost:9092"
+    ],
+    "topic": "sdk",
+    "partition": 3
+  },
+  "log": {
+    "enable": true,
+    "level": 1 
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "json1",
+  "duration": 100,
+  "kafka": {
+    "brokers": [
+      "localhost:9092"
+    ],
+    "topic": "sdk",
+    "partition": 1
+  },
+  "log": {
+    "enable": true,
+    "level": 1
+  }
+}

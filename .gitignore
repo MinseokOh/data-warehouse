@@ -1,0 +1,9 @@
+.idea/
+*.iml
+.DS_Store
+build/
+
+jdk-18/
+kafka/
+
+monitor/node_modules/

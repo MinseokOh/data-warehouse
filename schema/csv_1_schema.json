@@ -1,0 +1,30 @@
+{
+  "parser_settings": {
+    "version": "omni.2.1",
+    "file_format_type": "csv"
+  },
+  "file_declaration": {
+    "delimiter": " ",
+    "data_row_index": 1,
+    "columns": [
+      {"name" : "Id" },
+      {"name" : "Name" },
+      {"name" : "version" }
+    ]
+  },
+  "transform_declarations": {
+    "FINAL_OUTPUT": {
+      "object": {
+        "id": {
+          "xpath": "Id"
+        },
+        "name": {
+          "xpath": "Name"
+        },
+        "version": {
+          "xpath": "version"
+        }
+      }
+    }
+  }
+}
