@@ -136,11 +136,11 @@ go-lang version 1000
 ##### Formatting Data type
 
 ```protobuf
-syntax = 'proto3';
-message Product {
-  string id = 1;
-  string name = 2;
-  string price = 3;
+syntax = "proto3";
+message Sdk {
+    string id = 1;
+    string name = 2;
+    string version = 3;
 }
 ```
 
